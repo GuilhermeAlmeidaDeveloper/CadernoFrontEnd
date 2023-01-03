@@ -58,4 +58,35 @@ Define uma linguagem, determinando:
 
 # Tags, Atributos e Valores
 
+As tags são quase impossíveis de decorar de cara, são muitas. Com a prática, iremos entende-las melhor.
+
+HTML siginifica Linguagem de Hipermarcação de Texto.
+
+É uma linguagem usada para criação de websites, é usada para definir a estrutura do seu conteúdo.
+
+''<! DOCTYPE html>'' - informa para o arquivo que o tipo dele é html;
+
+''< html> - Tag raiz, que engloba todas as outras;
+
+''< META > - tag que define metados, informações sobre os dados do documento html (fica dentro do head);
+
+''< head>'' - São configurações que instauramos no documento (também não aparece para o usuário);
+
+''< body>'' - Informações que de fato aparecem para os usuários.
+
+Tag siginifica etiqueta, em html elas demarcam conteúdo.
+
+Estrutura:( < p> ) tag de abertura  , 'olá mundo conteudo' e (</ p> ) tag de fechamento
+
+Uma TAG com tag de abertura, tag de fechamento, propriedade, conteúdo forma um ELEMENTO do html.
+
+ESTUDAR AS ESPÉCIEIS DE TAGS NO MDN*
+
+Tags importantes:
+
+div - cria um container, funciona como divisor para agrupar outras tags html dentro (exemplo da escola e salas). É possivel ter tags dentro de tags, ou seja existem outras tags dentro dos divs.
+
+ol - cria uma lista ordenada
+
+ul - cria uma lista não ordenada
 
