@@ -90,3 +90,15 @@ ol - cria uma lista ordenada
 
 ul - cria uma lista não ordenada
 
+li - adiciona uma linha na lista
+
+Algumas tags possuem a característa self-closing, ou seja, elas se fecham sozinhas e não precisam ser fechadas, como por exemplo a tag < img>.
+
+img também possui o que chamamos de propriedade, no caso scr=.
+
+Conceito Arvore HTML*
+
+Para colocar uma imagem no meu site, ela deve estar necessáriamente na pasta do projeto do site, pq no futuro, ao subir os arquivos para o servidor, se a img nao estiver na pasta, ele nao vai encontrar depois.
+
+
+
