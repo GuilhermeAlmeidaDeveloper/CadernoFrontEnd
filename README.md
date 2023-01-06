@@ -100,5 +100,46 @@ Conceito Arvore HTML*
 
 Para colocar uma imagem no meu site, ela deve estar necessáriamente na pasta do projeto do site, pq no futuro, ao subir os arquivos para o servidor, se a img nao estiver na pasta, ele nao vai encontrar depois.
 
+# AULA 3
 
+## CSS: Propósito, seletores e propriedades.
 
+Css é uma linguagem de estilos, escritas que adiciona estilos aos elementos do HTML
+
+Os códigos do CSS são divididos em Seletores, Propriedades e Valores.
+
+seletor {
+    propriedade: valor;
+}
+
+h1 {
+    color: red
+}
+
+Seletor: responsável por selecionar o elemento que será estilizado.
+
+Propriedade: Diz o que será alterado no elemento selecionado.
+
+Valor: o que vai variar na propriedade.
+
+Dentre os seletores, existe diversos:
+
+O universal: representado pelo asterisco *
+
+O próprio elemento: h1, h2, p, div.
+
+A Classe: representado por .nome-da-classe
+
+o ID: representado por #nome-do-ID.
+
+Utiliza-se /* para comentar um código em css/html */
+
+Cascata = o que tá em baixo tem mais prioridade.
+
+O css pode ser escrito de três maneiras:
+
+Inline, diretamente no elemento html
+
+Dentro da tag < style>, essa tag fica dentro da tag head do arquivo HTML.
+
+Ou em um arquivo externo, essa arquivo deve ter a extensão .css. (utiliza-se a tag < link rel='stylesheet' href = ''style.css''>)
