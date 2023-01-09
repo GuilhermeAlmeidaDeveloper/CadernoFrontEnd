@@ -143,3 +143,23 @@ Inline, diretamente no elemento html
 Dentro da tag < style>, essa tag fica dentro da tag head do arquivo HTML.
 
 Ou em um arquivo externo, essa arquivo deve ter a extensão .css. (utiliza-se a tag < link rel='stylesheet' href = ''style.css''>)
+
+Ordem de prioridade:
+
+O CSS inline tem mais poder, posteriormente vem o arquivo/tag style, dependendo da ordem que aparecer a tag style ou a importação do arquivo por conta da CASCATA.
+
+Unidades de madidas:
+
+- em
+
+- rem
+
+- px
+
+- cm 
+
+- %
+
+Em primeiro momento usaremos a % e o px.
+
+*Estudando combinação de seletores (classe, ID e elemento.)
