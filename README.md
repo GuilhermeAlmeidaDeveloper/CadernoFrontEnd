@@ -163,3 +163,19 @@ Unidades de madidas:
 Em primeiro momento usaremos a % e o px.
 
 *Estudando combinação de seletores (classe, ID e elemento.)
+
+## Box Model
+
+Todos os elementos do HTML podem ser considerados uma box, por isso ela tem lados e possibilidade de alterar propriedades.
+
+A div/h1 tem como propriedades:
+
+Conteúdo, padding (espaçamento interno), border, margin (espaçamento do elemento para outro elemento).
+
+## Elementos INLINE e BLOCK.
+
+Existem elemetnos de bloco e de linha, eles funcionam diferentes um do outro, resumidamente:
+
+- Bloco : Ocupa a largura total da página.
+
+- Linha : Ocupa apenas o tamanho necessário para o elemento.
