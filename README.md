@@ -179,3 +179,89 @@ Existem elemetnos de bloco e de linha, eles funcionam diferentes um do outro, re
 - Bloco : Ocupa a largura total da página.
 
 - Linha : Ocupa apenas o tamanho necessário para o elemento.
+
+# AULA 4
+
+CSS: Propriedades e mais regras de funcionamento.
+
+- Herança
+
+- Pseudos
+
+- Combinadores 
+
+- Propriedades de Texto
+
+- Cores
+
+- Listas 
+
+- Sombras
+
+- Background-image
+
+- Bordas
+
+## Herança
+
+No css, os elementos herdam algumas propriedades de seus parentes, não sao todas, mas algumas delas.
+
+## Pseudos (selecinados com ::)
+
+Existem elementos no HTML que possuem várias partes para serem estilizadas, por isso foram criados pseudo-elementos, que nos ajudam a estilizar um elemento por partes. Principais pseudo-elementos: After/Before/Placeholder/backdrop.
+
+## Pseudos-Classes. (selecinados com :)
+
+Permitem que o css observe o estado atual de um elemento, por exemplo:
+
+- Quando um usuário passa o ouse em cima do elemento;
+
+- Quando um link já foi visitado
+
+- Quando um elemento está selecionado
+
+- Quando um elemento é o primeiro filho de um pai.
+
+Ex: Hover, active, visited, focus, first-child, last-child.
+
+## Combinadores de seletores:
+
+Já aprendemos a selecionar os elementos do html no css atraves do:
+
+- Nome do elemento, ex: h1
+
+- ID do elemento, ex: #códigodoid
+
+- Pela classe, ex: .nomedaclasse
+
+Podemos combinar os seletores, por exemplo:
+
+elemento1 elemento2 : Vai selecionar todo e qualquer elemento2 que estiver dentro do elemento1
+
+elemento1 + elemento2: Vai selecionar qualquer elemento2 que segue imediamentamente após um elemento ul
+
+elemento1 ~ elemento2: Vai selecionar todos os elementos do tipo elemento2 que seguir o elemento dentro de um mesmo elemento pai
+
+elemento1 > elemento2: Ira selecionar todos os elemento2 que estiverem diretamente dentro do elemento1
+
+## Cores
+
+- Cores nomeadas: white, black, purple.
+
+- Cores Hexadecimais: #0000ffff
+
+- RGB: combinação de red green e blue
+
+-HSL: Cores com base na percepção humana, combina matriz, saturação e luminancia.
+
+## Propriedade para texto:
+
+- Text-align: Alinha o texto
+
+- Text-decoraction: adciona uma decoração ao texto.
+
+- Font-family: Modifica a fonte padrao
+
+- Font-size: Modifica o tamanho da font
+
+- Font-Transformation: uppercase, lowercase.
