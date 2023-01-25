@@ -265,3 +265,74 @@ elemento1 > elemento2: Ira selecionar todos os elemento2 que estiverem diretamen
 - Font-size: Modifica o tamanho da font
 
 - Font-Transformation: uppercase, lowercase.
+
+# Aula 4
+
+Vamos entender um pouco sobre Viewport.
+
+Viewport consiste em toda a área útil do navegador, ou seja, somente onde o site é exibido, descontando tamanho de barras de navegação, ferramentas do desenvolvedor e etc.
+
+Nos temos o viewport height e viewport width.
+
+Essas medidas também podem ser usadas para definir a autura e largura de elementos.
+
+vw= 1% da viewport width
+100vw = 100% da viewport width
+vh= 1% da viewport high
+100vh = 100% da viewport high
+
+Mas o que é layout?
+
+"Modo de distribuição e arranjo dos elementos gráficos num determinado espaço ou superfície."
+
+No CSS, existem diversos tipos de layouts, os principais são:
+
+- Normal-flow
+- Flex-box 
+- Grid
+
+Nessa aula trataremos do normal-flow, o layout Padrao default do CSS.
+
+## Elementos de block e inline.
+
+Por padrao, um elemento de block, é 100% da largura do elemento pai, e tão alto quanto o seu conteúdo exige.
+
+Enquanto um elemento inline, ocupa apenas a largura e altura necessária para o conteúdo ser exibido.
+
+Layouts Adptativos>
+
+São layouts que se adptam tanto para PC quanto para Mobile.
+
+O layout responsivo é aquele se adpta exatamente a uma tela de qualquer dispositivo, com as melhores usabilidades para aquele dispositivo.
+
+Já o layout Fluido, ele é criado de forma que possa ser utilizado em qualquer dispositivo, porém ele nem sempre tem as melhores regras e usabilidade.
+
+## Conceito de Container.
+
+No frontEnd, um container é algo que envelopa outras coisas, por exemplo:
+
+Uma ul tem varias LI, logo essa ul é um container para li.
+
+## Positions
+
+Existem propriedades que nos ajudam a posicionar, elas são os positions, nós temos algumas variações:
+
+-static
+
+-relative
+
+-absolute
+
+-fixed
+
+-sticky
+
+## Z-INDEX
+
+Também é uma maneira de posicionar elementos.
+
+Quando estamos posicionando um elemento na horizontal, utilizamos o eixo X, quando é na vertical, utilizamos o eixo Y.
+
+Agoar quando queremos determinar a profundidade dos elementos, qm fica na frente de qm, utilizamos o z-index.
+
+Será sempre definido como um valor inteiro, seja ele negativo ou positivo.
